@@ -1,0 +1,3 @@
+# The program will take input from user and based on if input is even or odd print out 'even' or 'odd'.
+
+user_input = raw_input('Enter a number: ')

@@ -1,0 +1,6 @@
+# given a interger thats a perfect square want to find square root of it.
+
+x = 25
+x_squared = sqrt(x)
+print 'x_squared'
+
