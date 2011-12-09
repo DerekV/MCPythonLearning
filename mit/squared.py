@@ -18,6 +18,6 @@ while True:
         else: 
             print "Sorry this number doesn't have a perfect square"
             quit()
-print 'The square root of your number is', i
+print 'The square root of your number is', i #github edit
 
     
