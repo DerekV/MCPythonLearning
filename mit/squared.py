@@ -11,13 +11,10 @@ while True:
     if len(x) < 1: break
     x_int = int(x)
     #This bit finds the perfect square of a number in reverse and keeps running until it gets it then breaks out of the loop back to the start of the first while True part.
-    while True:
-        if x_int == i * i: break
-        elif x_int >= i * i:
+    while x_int != i * i:
+        if x_int >= i * i:
             i = i + 1
         else: 
             print "Sorry this number doesn't have a perfect square"
             quit()
-print 'The square root of your number is', i
-
-    
+print 'The square root of your number is', i #github edit
